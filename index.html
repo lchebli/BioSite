@@ -7,7 +7,10 @@ Homepage-->
 <head>
  <meta charset="UTF-8">
  <link rel="stylesheet" href="CSS/styles.css">
- <meta name="viewport" content="width=, initial-scale=1.0">
+ <meta name="viewport" content="width=, initial-scale=1">
+ <link rel="stylesheet" href="CSS/styles-mobile.css" media="screen and (max-width: 480px)">
+ <link rel="stylesheet" href="CSS/styles-tablet.css" media="screen and (min-width:481px) and (max-width:768px)">
+ <link rel="stylesheet" href="CSS/styles-desktop.css" media="screen and (min-width: 769px) and (max-width:1920)">
  <title>BioSite</title>
 </head>
 
@@ -15,7 +18,13 @@ Homepage-->
   
   <!--Use header areas for website's name 1. add lines to the navigation and fix padding 2. add hero image here later-->
   <header>
-    <h1 style="color: rgb(6, 121, 52);">Jessica on Surviving the Human Experience</h1>
+
+    <!--Hero image below page.172 in textbook (remember leave out width and height)-->
+<div id="hero">
+    <img src="images/Jessica hero image.JPG" alt="Jessica by her artwork">
+</div>
+    <h1 style="color: black">Jessica on Surviving the Human Experience</h1>
+
 
   </header>
 
@@ -23,13 +32,23 @@ Homepage-->
   <nav>
     <ul>
       <li><a href="index.html">Home</a></li>
-      <li><a href="About.html">About</a></li>
-      <li><a href="Hobby">Hobby</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="hobbies.html">Hobby</a></li>
     </ul>
   </nav>
   <!--Jessica's goals and accomplishments are going here add <p></p> elements later 250 word minimum-->
   <main>
-    
+  <!--Add another photo of Jessica here make sure to float text right and image left-->
+
+<div class="grid">
+<figure>
+    <img src="images/Jessica Sit down.JPG" alt="sitting down on the ground">
+</figure>
+
+<aside>
+  <p>Jessica B. is a classic example of a free spirit. In a world where we’re all consumed with anxieties and self-doubt. She claims that creative expression aids her in transferring the chaos of emotion of the mind into something tangible, finding peace in the process. In her pursuit of mental clarity, Jessica has been immersed in hobbies of self-expression from a young age. Her most current creative outlet is acrylic art. Canvases awash in colorful displays of abstract and figurative art of the feminine form. She has sold original art at her local farmers market while putting a percentage of her profit to her local domestic violence shelter for women. She has been included in an art show of the high desert, an annual art show showcasing art in many varieties. Now more recently, has made prints of her paintings to sell online.At the heart of each creative outlet is Jessica’s need for mental calm achieved through artistic expression. Other creative hobbies she’s taken up are jewelry-making, fiction writing, sewing, holistic remedies, making vegan cooking, and yoga teaching. She has personally taught me some yoga that helped with soreness I was having that particular weekend. She cares deeply about her family and the people she loves. Jessica is a caring and creative person I am lucky to have met. Her creativity oozes through everything she does. Her individuality is apparent no matter what she is doing. She will even customize shirts and other pieces of clothing to express herself.</p>
+</aside>
+</div>
   </main>
 
   <!--footer content like copyright-->

@@ -1,0 +1,181 @@
+/*Author Leslie Khattarchebli
+Styles.css sheet
+02/16/2025*/
+
+/*CSS Reset*/
+body, header, nav, main, footer, h1, div, img, aside, figure, figcaption, aside, aside p, section, .image, .pic {
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+}
+
+/*style rules for body content*/
+body {
+  background-color: turquoise;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/*style rules for header content*/
+header {
+  margin: 0% auto;
+}
+
+#hero {
+  border: 20px solid;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/*style rules for nav content*/
+nav {
+  text-align: center;
+  margin: 1em, 2em;
+  border: solid 20px rgb(164, 23, 47);
+  border-radius: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0% auto;
+  padding:0%
+}
+
+nav li {
+  font-size: x-large;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-top: solid;
+  border-color: rgb(194, 76, 106);
+}
+
+
+
+nav li a {
+  display: block;
+  padding: 0.5em, 1em;
+  background-color: rgb(48, 24, 24);
+  text-decoration: none;
+  color: green;
+}
+
+/*style rules for main element*/
+main {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pic {
+  margin: 2%;
+  padding: 0%;
+  max-width: 100%;
+  border: 20px solid;
+}
+
+aside p {
+  border: 20px solid black;
+  max-width: 100%;
+  margin-left: 2%;
+  padding: 2%;
+  text-align: left;
+}
+
+main p {
+    color: rgb(176, 6, 157);
+    font-size: x-large;
+    font-style: inherit;
+}
+
+.image {
+  margin: auto;
+  margin-top: 2%;
+  padding: 0%;
+  max-width: 50%;
+  border: 20px solid;
+}
+
+section {
+  border: 20px solid;
+  margin: 2%;
+  padding: 2%;
+}
+
+/*style rules for footer element*/
+footer {
+  float: inline-start;
+}
+
+aside{
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: rgb(176, 6, 157);
+  text-shadow: 4px 4px 4px 10 px;
+  padding: 2%;
+  margin: auto;
+}
+
+figure {
+  border: 4px solid #ae1f3e;
+  box-shadow: 6px 6px 10px #ae1f3e;
+  max-width: 50%;
+  margin: 2% auto;
+}
+
+figcaption {
+  padding: 2%;
+  border-top: 4px solid #ae1f3e;
+}
+
+figcaption p {
+  text-align: center;
+  font-size: large;
+}
+
+/*Style rule for mobile viewport*/
+
+ /*main mobile*/
+aside {
+  float: inherit;
+}
+
+.pic {
+    float: left;
+}
+
+section {
+ float: inline-start;
+}
+
+/*style rule for desktop viewport*/
+@media screen and (min-width: 769px) and (max-width:1920) {
+aside p {
+  float: right;
+  max-width: 50%;
+}
+
+section p {
+  float : right;
+}
+
+figure {
+  float: left
+}
+
+.grid {
+  display: grid;
+  grid-column row-gap: auto auto;
+}
+
+
+/*style rule for Tablet viewport*/
+
+@media screen and screen and (min-width:481px) and (max-width:768px) {
+
+}
